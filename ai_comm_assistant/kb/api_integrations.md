@@ -1,0 +1,1 @@
+For API integration queries, point users to API docs and confirm supported endpoints.

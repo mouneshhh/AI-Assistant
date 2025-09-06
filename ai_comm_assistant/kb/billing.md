@@ -1,0 +1,1 @@
+If a billing error occurs, reassure the user and confirm investigation. Escalate urgent cases to billing team.
