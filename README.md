@@ -9,15 +9,15 @@ The AI Communication Assistant is a simple but powerful tool that helps automate
 - Runs with just a few commands  
 
 ## 📂 Project Structure
-
-
-## 📂 Project Structure
-ai_comm_assistant/
-│── app.py # Main application entry point
-│── email_pipeline.py # Email processing pipeline
-│── utils.py # Helper functions
-│── config.example.yaml # Example configuration file
-│── requirements.txt # Python dependencies
+ai_comm_assistant/app.py ---> Main application entry point
+<br>
+ email_pipeline.py ----> Email processing pipeline
+<br>
+ utils.py ---> Helper functions
+<br>
+ config.example.yaml  ---> Example configuration file
+<br>
+ requirements.txt  ---> Python dependencies
 
 
 ## ⚙️ Installation
@@ -25,16 +25,17 @@ ai_comm_assistant/
    ```bash
    git clone https://github.com/mouneshhh/AI-Assistant.git
    cd AI-Assistant/ai_comm_assistant
-   
+
 2. Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
 3. Install dependencies:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-4.Edit config.yaml with your settings (API keys, email server details, etc.).
-
+4. Edit config.yaml with your settings (API keys, email server details, etc.).
 5.Run the assistant:
-streamlit run app.py
+   ```bash
+   streamlit run app.py
